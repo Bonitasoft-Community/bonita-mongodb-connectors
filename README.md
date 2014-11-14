@@ -1,6 +1,7 @@
 bonita-mongodb-connectors
 =========================
 **MongoDB connectors for Bonita BPM**
+
 v1.0 of this project is built and tested with:
 
 - MongoDB java client v2.12.2
