@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+	<definitionId>mongo-directConnection</definitionId>
+	<definitionVersion>1.0.0</definitionVersion>
+	
+	<implementationId>mongo-directConnection-impl</implementationId>
+	<implementationVersion>1.0.0</implementationVersion>
+	<implementationClassname>org.bonitasoft.connector.mongodb.DirectConnectionConnector</implementationClassname>
+	
+	<description>Runs a command on a direct MongoDB connection</description>
+	
+	<jarDependencies>
+		<jarDependency>${project.build.finalName}.jar</jarDependency>
+		<jarDependency>mongo-java-driver-${mongo.client.version}.jar</jarDependency>
+	</jarDependencies>
+</implementation:connectorImplementation>

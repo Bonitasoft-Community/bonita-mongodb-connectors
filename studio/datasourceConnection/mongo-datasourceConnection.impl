@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+	<definitionId>mongo-datasourceConnection</definitionId>
+	<definitionVersion>1.0.0</definitionVersion>
+
+	<implementationId>mongo-datasourceConnection-impl</implementationId>
+	<implementationVersion>1.0.0</implementationVersion>
+	<implementationClassname>org.bonitasoft.connector.mongodb.DatasourceConnectionConnector</implementationClassname>
+
+	<description>Runs a command on a pooled MongoDB datasource</description>
+
+	<jarDependencies>
+		<jarDependency>${project.build.finalName}.jar</jarDependency>
+	</jarDependencies>
+</implementation:connectorImplementation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+  <id>mongo-datasourceConnection</id>
+  <version>1.0.0</version>
+  <icon>mongodb.png</icon>
+  <category icon="mongodb.png" id="mongodb" parentCategoryId="database"/>
+  <category icon="database.png" id="database"/>
+  <input defaultValue="java:/comp/env/mongoDatasourceName" mandatory="true" name="datasource" type="java.lang.String"/>
+  <input mandatory="true" name="command" type="java.lang.String"/>
+  <output name="commandResult" type="com.mongodb.CommandResult"/>
+  <page id="settings">
+    <widget xsi:type="definition:Text" id="datasource" inputName="datasource"/>
+    <widget xsi:type="definition:TextArea" id="command" inputName="command"/>
+  </page>
+</definition:ConnectorDefinition>
