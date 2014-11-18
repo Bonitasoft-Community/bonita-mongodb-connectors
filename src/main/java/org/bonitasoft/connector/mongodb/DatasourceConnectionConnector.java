@@ -76,7 +76,7 @@ public class DatasourceConnectionConnector extends AbstractConnector {
 		// Run database command and set it in connector output
 		if (LOGGER.isLoggable(Level.FINE))
 			LOGGER.fine("Running command: "+ getCommand());		
-		CommandResult result = db.command(getCommand());
+		CommandResult result = db.doEval(getCommand());
 		setCommandResult(result);
 		
 		if (LOGGER.isLoggable(Level.FINE))
