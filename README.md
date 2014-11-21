@@ -14,7 +14,7 @@ Bonita Connectors:
 - MongoDB datasource connection connector (requires MongoDB datasource - see: https://github.com/pozil/mongodb-jndi-datasource)
 
 Sample Bonita processes:
-- Mongo Connectors Test - Test processes that allows to test the connectors: 
+- Mongo Connectors Test - Test processes that allows to test the connectors
 - Mongo Store - A sample use case of business processes using MongoDB
 
 
