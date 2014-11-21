@@ -8,9 +8,14 @@ v1.0 of this project is built and tested with:
 - Bonita BPM 6.3.7
 
 ##Deliverables:
+
+Bonita Connectors:
 - MongoDB direct connection connector
 - MongoDB datasource connection connector (requires MongoDB datasource - see: https://github.com/pozil/mongodb-jndi-datasource)
-- A sample Bonita process diagram to test the connectors
+
+Sample Bonita processes:
+- Mongo Connectors Test - Test processes that allows to test the connectors: 
+- Mongo Store - A sample use case of business processes using MongoDB
 
 
 ##Usage instructions:
