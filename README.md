@@ -9,17 +9,18 @@ v1.0 of this project is built and tested with:
 
 ##Deliverables:
 
-Bonita Connectors:
+Project deliverables can be built from sources or [downloaded](https://github.com/pozil/bonita-mongodb-connectors/releases)
+
+**Bonita Connectors:**
 - MongoDB direct connection connector
 - MongoDB datasource connection connector (requires MongoDB datasource - see: https://github.com/pozil/mongodb-jndi-datasource)
 
-Sample Bonita processes:
+**Sample Bonita processes:**
 - Mongo Connectors Test - Test processes that allows to test the connectors
 - Mongo Store - A sample use case of business processes using MongoDB
 
-
 ##Usage instructions:
-If you are downloading the project deliverable:
+If you are downloading the project deliverables:
 
 1. Extract the provided ZIP parent file (it contains the individual connector ZIP files)
 
